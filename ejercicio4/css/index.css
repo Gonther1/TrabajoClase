@@ -35,3 +35,9 @@ aside {
 main {
     background-color: chocolate;
 }
+@media screen and (max-width: 768px) {
+    .secondDiv {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
